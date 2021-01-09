@@ -1,2 +1,1 @@
-"# vrsnjacko_nasilje" 
 "# cybersecurity" 
