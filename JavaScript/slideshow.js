@@ -1,6 +1,10 @@
 
 var slideIndex = 0;
-showSlides();
+
+window.onload=postavi;
+function postavi(){
+  showSlides();
+}
 
 function showSlides() {
   var i;
