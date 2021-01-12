@@ -4,7 +4,10 @@
         <title>Cybersecurity</title>
         <link rel="stylesheet" href="css/glavniStil.css">
         <script src="JavaScript/slideshow.js"></script>
-        <script src="JavaScript/loading.js"></script>
+        <script> $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+             });
+     </script>
         <div class="loader-wrapper">
           <span class="loader"><span class="loader-inner"></span></span>
         </div>
